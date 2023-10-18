@@ -1,0 +1,74 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Lobster", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.homepage {
+  height: 100vh;
+}
+
+.collapse {
+  justify-content: center;
+}
+
+.navbar-nav {
+  margin-right: 0;
+}
+
+.logo-glavig {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.all-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.about h5 {
+  margin: 1rem;
+}
+
+.about h6 {
+  margin-top: 20px;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 596px) {
+  .all-about {
+    display: block;
+    height: 100vh;
+  }
+}
+
+.card-heading {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
